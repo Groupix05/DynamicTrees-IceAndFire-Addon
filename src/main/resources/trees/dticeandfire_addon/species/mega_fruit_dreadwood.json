@@ -1,0 +1,44 @@
+{
+    "family": "dticeandfire_addon:dreadwood",
+    "tapering": 0.30,
+    "signal_energy": 24.0,
+    "up_probability": 7,
+    "lowest_branch_height": 5,
+    "growth_rate": 0.9,
+    "soil_longevity": 16,
+    "max_branch_radius": 24,
+    "growth_logic_kit": {
+        "name": "conifer",
+        "properties": {
+            "energy_divisor": 5
+        }
+    },
+    "leaves_properties": "dticeandfire_addon:dreadwood",
+    "environment_factors" : {
+        "#forge:is_hot": 0.40,
+        "#forge:is_dry": 0.15,
+        "#forge:is_wet": 0.80
+    },
+    "perfect_biomes": { "name": "iceandaddon:dread.*" },
+    "fruits": [
+        "dticeandfire_addon:dread_fruit"
+    ],
+    "features" : [
+        "conifer_topper",
+        "clear_volume",
+        "roots",
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "fruit",
+            "properties": {
+                "fruit": "dticeandfire_addon:dread_fruit",
+                "fruiting_radius": 6
+            }
+        }
+    ]
+}

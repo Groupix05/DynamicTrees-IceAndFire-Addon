@@ -1,0 +1,11 @@
+{
+    "common_leaves": "dticeandfire_addon:dreadwood",
+    "common_species": "dticeandfire_addon:dreadwood",
+    "primitive_log": "iceandaddon:dread_wood",
+    "max_branch_radius": 24,
+    "generate_surface_root": true,
+    "texture_overrides": {
+        "branch": "iceandaddon:block/dreadwood_log",
+        "branch_top": "iceandaddon:block/dreadwood_log_top"
+    }
+}

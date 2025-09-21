@@ -1,0 +1,29 @@
+[
+  {
+    "select": { "name": "iceandaddon:surface_biome_dread" },
+    "apply": {
+      "species" : {
+        "random" : {
+          "mega_spruce": 1
+        }
+      },
+      "density": [ 1.0 ],
+      "chance": 0.8,
+      "forestness" : 1.0
+    }
+  },
+  {
+    "select": { "name": "iceandaddon:dread_forest" },
+    "apply": {
+      "species" : {
+        "random" : {
+          "dticeandfire_addon:dreadwood": 10,
+          "dticeandfire_addon:mega_fruit_dreadwood": 1
+        }
+      },
+      "density": [ 0.3 ],
+      "chance": 0.2,
+      "forestness" : 0.3
+    }
+  }
+]

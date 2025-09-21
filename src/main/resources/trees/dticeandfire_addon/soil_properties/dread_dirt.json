@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "iceandaddon:dread_dirt",
+  "acceptable_soils": [ "snow_like" ]
+}

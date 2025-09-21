@@ -1,13 +1,13 @@
 license="MIT"
 modLoader="javafml"
 loaderVersion="[47,)"
-issueTrackerURL="https://github.com/Groupix05/DynamicTrees-Generator/issues"
+issueTrackerURL="https://github.com/Groupix05/DynamicTrees-IceAndFire-Addon/issues"
 
 [[mods]]
 modId="dticeandfire_addon"
 version="${file.jarVersion}"
 displayName="Dynamic Trees for Ice and Fire: Addon"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamictrees"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-ice-and-fire-addon"
 logoFile="logo.png"
 credits=""
 authors="Groupix05"

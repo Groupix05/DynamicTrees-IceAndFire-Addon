@@ -1,0 +1,36 @@
+{
+    "family": "dticeandfire_addon:dreadwood",
+    "tapering": 0.25,
+    "signal_energy": 16.0,
+    "up_probability": 3,
+    "lowest_branch_height": 3,
+    "growth_rate": 0.9,
+    "growth_logic_kit": "conifer",
+    "leaves_properties": "dticeandfire_addon:dreadwood",
+    "environment_factors" : {
+        "#forge:is_hot": 0.40,
+        "#forge:is_dry": 0.15,
+        "#forge:is_wet": 0.80
+    },
+    "perfect_biomes": { "name": "iceandaddon:dread.*" },
+    "generate_seed": true,
+    "generate_sapling": true,
+    "acceptable_soils": ["snow_like"],
+    "mega_species": "dticeandfire_addon:mega_fruit_dreadwood",
+    "fruits": [
+        "dticeandfire_addon:dread_fruit"
+    ],
+    "features" : [
+        "conifer_topper",
+        {
+            "name": "fruit",
+            "properties": {
+                "fruit": "dticeandfire_addon:dread_fruit",
+                "fruiting_radius": 6
+            }
+        }
+    ],
+    "lang_overrides": {
+        "seed": "Dreadwood fruit Cone"
+    }
+}

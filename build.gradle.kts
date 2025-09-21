@@ -28,6 +28,9 @@ repositories {
     }
     maven("https://harleyoconnor.com/maven")
     maven("https://squiddev.cc/maven/")
+    flatDir {
+        dir("libs")
+    }
 }
 
 val modName = property("modName")
@@ -95,7 +98,7 @@ dependencies {
     runtimeOnly(fg.deobf("curse.maven:suggestion-provider-fix-469647:4591193"))
 
     //Other
-    runtimeOnly(files("libs/iceandaddon-0.0.5beta.jar"))
+    runtimeOnly(fg.deobf("libs:iceandaddon:0.0.5beta"))
     runtimeOnly(fg.deobf("curse.maven:citadel-331936:6702068"))
     runtimeOnly(fg.deobf("curse.maven:ice-and-fire-dragons-264231:5633453"))
     runtimeOnly(fg.deobf("curse.maven:playeranimator-658587:4587214"))

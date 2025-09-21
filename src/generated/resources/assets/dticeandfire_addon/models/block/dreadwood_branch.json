@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "iceandaddon:block/dreadwood_log",
+    "rings": "iceandaddon:block/dreadwood_log_top"
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "select": { "name": "iceandaddon:.*" },
+    "cancellers": {
+      "type": "tree",
+      "namespaces": ["iceandaddon", "minecraft"]
+    }
+  }
+]

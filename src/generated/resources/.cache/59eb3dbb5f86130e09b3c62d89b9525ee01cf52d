@@ -1,0 +1,7 @@
+// 1.20.1	2025-09-21T21:26:53.892592182	Loot Tables
+54d6edb14b978ebe7d825ed88891b3393ad03d06 data/dticeandfire_addon/loot_tables/blocks/dread_fruit.json
+baed0ba6d5d94d127a61b7e68e575679525d11fa data/dticeandfire_addon/loot_tables/blocks/dreadwood_leaves.json
+c331edd241a4ccdd434549e5802673c9009d9dd1 data/dticeandfire_addon/loot_tables/trees/branches/dreadwood.json
+c73a6182157535ed8f19938f9445364f2c5cbddf data/dticeandfire_addon/loot_tables/trees/leaves/dreadwood.json
+5edc2de5292cacf2837e70e54f2de53b81a67fd1 data/dticeandfire_addon/loot_tables/trees/voluntary/dreadwood.json
+592c308388b6ef63dfda11b8708fabcf5e3eac0d data/dticeandfire_addon/loot_tables/trees/voluntary/fruit_dreadwood.json

@@ -1,0 +1,7 @@
+{
+    "parent": "dynamictrees:block/fruit/apple_age1",
+	"textures": {
+		"particle": "dticeandfire_addon:block/dread_fruit",
+		"apple": "dticeandfire_addon:block/dread_fruit"
+	}
+}
