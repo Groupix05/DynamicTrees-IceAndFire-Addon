@@ -69,7 +69,8 @@ minecraft {
                 "--all",
                 "--output", file("src/generated/resources/"),
                 "--existing", file("src/main/resources"),
-                "--existing-mod", "dynamictrees"
+                "--existing-mod", "dynamictrees",
+                "--existing-mod", "iceandaddon"
             )
         }
     }
@@ -94,7 +95,11 @@ dependencies {
     runtimeOnly(fg.deobf("curse.maven:suggestion-provider-fix-469647:4591193"))
 
     //Other
-    //implementation(fg.deobf("curse.maven:template-projectid:fileid"))
+    runtimeOnly(files("libs/iceandaddon-0.0.5beta.jar"))
+    runtimeOnly(fg.deobf("curse.maven:citadel-331936:6702068"))
+    runtimeOnly(fg.deobf("curse.maven:ice-and-fire-dragons-264231:5633453"))
+    runtimeOnly(fg.deobf("curse.maven:playeranimator-658587:4587214"))
+    runtimeOnly(fg.deobf("curse.maven:geckolib-388172:6920925"))
 }
 
 tasks.jar {
