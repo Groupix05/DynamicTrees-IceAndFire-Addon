@@ -20,6 +20,7 @@
         "#forge:is_wet": 0.80
     },
     "perfect_biomes": { "name": "iceandaddon:dread.*" },
+    "acceptable_soils": ["snow_like"],
     "fruits": [
         "dticeandfire_addon:dread_fruit"
     ],
